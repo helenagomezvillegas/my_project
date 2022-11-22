@@ -1,5 +1,10 @@
 package iteration
 
 func Repeat(chart string) string {
-	return "aaaaa"
+	var repeated string
+	for i := 0; i < 5; i++ {
+		repeated = repeated + chart
+
+	}
+	return repeated
 }
